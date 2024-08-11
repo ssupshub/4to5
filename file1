@@ -1,1 +1,156 @@
-this is file1
+ 1  apt-get update -y
+    2  sudo apt-cache policy ansible
+    3  sudo apt install -y ansible
+    4  ansible --version
+    5  which ansible
+    6  vim /etc/ansible/hosts
+    7  vim /etc/ansible /hosts
+    8  vim /etc/ansible/host
+    9  vim /etc/ansible/hosts
+   10  cd /etc/ansible
+   11  ansible --version
+   12  cd /etc/ansible
+   13  apt-get remove ansible -y
+   14  ansible --version
+   15  sudo apt update -y
+   16  sudo apt install software-properties-common
+   17  sudo add-apt-repository --yes --update ppa:ansible/ansible
+   18  sudo apt install ansible -y
+   19  ansible --version
+   20  vim /etc/ansible/hosts
+   21  vim /etc/ansible/ansible.cfg
+   22  ansible-config init --disabled -t all > ansible.cfg
+   23  cd ~
+   24  mkdir playbooks
+   25  cd playbooks/
+   26  sudo vim create_ec2.yml
+   27  ls
+   28  ansible-playbook create_ec2.yml
+   29  sudo apt-get install python3-boto3
+   30  apt install python3-pip –y
+   31  sudo apt install python3-pip –y
+   32  apt install python3-pip
+   33  pip install boto3
+   34  pip install boto
+   35  ansible-playbook create_ec2.yml
+   36  apt install python3-pip
+   37  sudo apt-get install python3-boto3
+   38  apt-get install python3-boto3
+   39  pip install boto
+   40  pip install boto3
+   41  ansible-playbook create_ec2.yml
+   42  pip3 install boto3
+   43  sudo apt-get install python-boto3
+   44  sudo apt-get install python3-boto3
+   45  ansible-playbook create_ec2.yml
+   46  vim /etc/ansible/hosts
+   47  ansible-playbook create_ec2.yml
+   48  su - ansible
+   49  sudo apt-get install python3-boto3
+   50  apt install python3-pip –y
+   51  apt install python3-pip
+   52  pip install boto3
+   53  pip install boto
+   54  ansible-playbook create_ec2.yml
+   55  vim create_ec2.yml
+   56  ansible-playbook create_ec2.yml
+   57  vim create_ec2.yml
+   58  apt install boto
+   59  apt install boto*
+   60  apt update -y
+   61  sudo apt-get install python3-boto3
+   62  apt update -y
+   63  ansible-playbook create_ec2.yml
+   64  apt install python3-pip –y
+   65  apt install python3-pip
+   66  ls
+   67  ls -lh
+   68  cd /etc
+   69  ls
+   70  find / -name (python3-boto3)
+   71  grep | python3-boto3
+   72  find / -name python3-boto3
+   73  find / -name python3-pip
+   74  find / -name boto
+   75  ansible-playbook create_ec2.yml
+   76  lscd ..
+   77  cd /
+   78  cd /playbook
+   79  cd playbook
+   80  ls
+   81  cd home
+   82  ls
+   83  cd ubuntu
+   84  ls
+   85  cd ansible.cfg
+   86  ansible-playbook create_ec2.yml
+   87  cd ../..
+   88  cd ..
+   89  ls
+   90  cd home
+   91  ls
+   92  cd ubuntu
+   93  ls
+   94  cd ../..
+   95  cd ~
+   96  ls
+   97  cd playbook
+   98  cd
+   99  ls
+  100  cd playbooks
+  101  ls
+  102  playbook-ansible create_ec2.yml
+  103  ansible-playbook create_ec2.yml
+  104  vim create_ec2.yml
+  105  ansible-playbook create_ec2.yml
+  106  pip list | grep boto
+  107  python -c "import botocore"
+  108  python3 -c "import botocore"
+  109  ansible --version
+  110  python -c "import boto"
+  111  ansible-playbook create_ec2.yml
+  112  pip3 install awscli --user
+  113  aws configure
+  114  apt install awscli
+  115  aws configure
+  116*
+  117  vim create_ec2.yml
+  118  ansible-playbook create_ec2.yml
+  119  vim create_ec2.yml
+  120  ansible-playbook -i localhost, create_ec2.yml
+  121  vim create_ec2.yml
+  122  ansible-playbook create_ec2.yml
+  123  pip install boto boto3
+  124  ansible-galaxy collection install amazon.aws
+  125  vim create_ec2.yml
+  126  ansible-playbook create_ec2.yml
+  127  vim create_ec2.yml
+  128  ansible-playbook create_ec2.yml
+  129  vim create_ec2.yml
+  130  ansible-playbook create_ec2.yml
+  131  vim create_ec2.yml
+  132  ansible-playbook create_ec2.yml
+  133  vim create_ec2.yml
+  134  ansible-playbook create_ec2.yml
+  135  vim create_ec2.yml
+  136  ansible-playbook create_ec2.yml
+  137  vim create_ec2.yml
+  138  ansible-playbook create_ec2.yml
+  139  vim create_ec2.yml
+  140  ansible-playbook create_ec2.yml
+  141  cd ~
+  142  ls
+  143  cd /
+  144  ls
+  145  /.aws/config
+  146  .aws/config
+  147  cd .aws/config
+  148  cd ~
+  149  ;s
+  150  ls
+  151  cd playbook
+  152  cd playbooks
+  153  vim create_ec2.yml
+  154  ansible-playbook create_ec2.yml
+  155  ansible-playbook -i localhost create_ec2.yml
+  156  history
