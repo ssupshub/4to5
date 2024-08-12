@@ -1,1 +1,35 @@
-this is file3
+DB_HOST=localhost
+DB_PORT=5432
+SECRET_KEY=mysecretkey
+
+
+
+
+Accessing Environment Variables in Node.js
+
+const dbHost = process.env.DB_HOST;
+const dbPort = process.env.DB_PORT;
+const secretKey = process.env.SECRET_KEY;
+
+console.log(`Database Host: ${dbHost}`);
+console.log(`Database Port: ${dbPort}`);
+console.log(`Secret Key: ${secretKey}`);
+
+
+
+
+
+
+
+Using a Module for Environment Variables
+
+module.exports = {
+  dbHost: process.env.DB_HOST,
+  dbPort: process.env.DB_PORT,
+  secretKey: process.env.SECRET_KEY,
+};
+const config = require('./config');
+
+console.log(`Database Host: ${config.dbHost}`);
+console.log(`Database Port: ${config.dbPort}`);
+console.log(`Secret Key: ${config.secretKey}`);
