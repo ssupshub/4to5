@@ -1,0 +1,6 @@
+ec2
+s3
+codepipeline codebuild colddeploy codecommit
+lamda
+auto scaling
+load balancer
